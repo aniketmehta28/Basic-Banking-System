@@ -1,0 +1,150 @@
+body{
+  text-align: center;
+}
+
+/* Navbar */
+.navbar{
+  background-color: #d3e0ea;
+  padding: 2% 5% !important;
+}
+.navbar-brand{
+  font-size: 3.5rem ! important;
+  font-weight: bold;
+  color: #1687a7;
+  font-family: 'Roboto',sans-serif;
+}
+.navbar-brand:hover{
+  color:#03506f;
+}
+.nav-item{
+  font-size: 2.5rem;
+}
+.nav-link{
+  color: #1687a7;
+  font-weight: bold;
+  font-family: 'Roboto',sans-serif;
+}
+.nav-link:hover{
+  color:#03506f;
+}
+.drop{
+  padding: 3% 2% ;
+}
+.form{
+    font-size: 1rem !important;
+    margin-left: 3%;
+}
+.but{
+  border: solid !important;
+  border-color:#1687a7 !important;
+  font-size: 1rem !important;
+  margin-left: 2%;
+}
+.but:hover{
+  background-color: #1687a7;
+}
+
+/* Table */
+#table{
+  text-align: center;
+
+}
+table{
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5%;
+  margin-bottom: 2%;
+background-color: #d3e0ea;
+
+    border: solid 5px #03506f;
+    border-collapse: collapse;
+}
+
+th{
+  font-size: 1.8rem;
+  color: #03506f;
+  font-weight: bolder;
+  padding: 1% 1%;
+}
+tr{
+  font-weight: bold;
+  font-family: 'Roboto',sans-serif;
+  font-size: 1.2rem;
+}
+td{
+  padding: 2% 2%;
+  width:20%;
+  color: #03506f;
+  font-weight:bolder;
+}
+button{
+  background-color: #03506f;
+  color: #fff;
+  border: hidden 5px;
+}
+button:hover{
+  box-shadow: 2px 2px 5px grey;
+  background-color: #1687a7;
+}
+.bt2{
+    background-color: #03506f;
+      border: hidden 5px;
+      font-size: 2rem;
+      color: #1687a7;
+    margin: 5% 5%;
+}
+.bt2:hover{
+    background-color:#d3e0ea;
+    box-shadow: 2px 2px 5px grey;
+}
+button:hover{
+  box-shadow: 2px 2px 5px grey;
+    background-color: #1687a7;
+}
+/* Transfer */
+
+.heading{
+  font-size: 5rem;
+  padding: 2% 2%;
+  color: #1687a7;
+  font-weight: bolder;
+  font-family: 'Roboto',sans-serif;
+}
+
+.form{
+  font-weight: bolder;
+  color: #1687a7;
+  font-size: 2rem !important;
+  font-family: 'Roboto',sans-serif;
+  padding: 2% 3%;
+}
+
+.input{
+  font-size: 1.2rem !important;
+  background-color: #d3e0ea;
+
+}
+.button{
+  background-color: #1687a7;
+    border: hidden 5px;
+    font-size: 1.2rem;
+    color: #03506f;
+  margin: 2% 2%;
+}
+.button:hover{
+  background-color:#d3e0ea;
+  box-shadow: 2px 2px 5px grey;
+}
+
+/* footer */
+footer{
+  padding: 2% 2%;
+
+}
+.icon{
+  padding: 2% 2%;
+  color: #03506f;
+}
+.icon:hover{
+  color: #d3e0ea;
+}

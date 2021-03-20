@@ -1,0 +1,134 @@
+body{
+  text-align: center;
+}
+
+/* Navbar */
+.navbar{
+  background-color: #d3e0ea;
+  padding: 2% 5% !important;
+}
+.navbar-brand{
+  font-size: 3.5rem ! important;
+  font-weight: bold;
+  color: #1687a7;
+  font-family: 'Roboto',sans-serif;
+}
+.navbar-brand:hover{
+  color:#03506f;
+}
+.nav-item{
+  font-size: 2.5rem;
+}
+.nav-link{
+  color: #1687a7;
+  font-weight: bold;
+  font-family: 'Roboto',sans-serif;
+}
+.nav-link:hover{
+  color:#03506f;
+}
+.drop{
+  padding: 3% 2% ;
+}
+.form{
+    font-size: 1rem !important;
+    margin-left: 3%;
+}
+.but{
+  border: solid !important;
+  border-color:#1687a7 !important;
+  font-size: 1rem !important;
+  margin-left: 2%;
+}
+.but:hover{
+  background-color: #1687a7;
+}
+
+/* Headline Section */
+.intro{
+  margin: 4% 2%;
+  padding: 5% 6% 12% 6%;
+  background-color: #03506f;
+}
+.hone{
+  font-size: 5rem;
+  font-weight: bolder;
+}
+.introd{
+  color: #f9f3f3;
+  margin-left: 50%;
+  text-align: justify;
+  font-family: 'Roboto',sans-serif;
+  animation: div 2s forwards;
+}
+@keyframes div {
+  from{
+    margin-top: 100%;
+  }
+  to{
+    margin-top: 4%;
+  }
+}
+.image{
+  float: left;
+  animation: img 5s forwards;
+}
+@keyframes img {
+  from{
+  opacity: 0;
+  }
+  to{
+   opacity: 1;
+  }
+}
+.img{
+  width: 80%;
+  height: 60%;
+}
+/* Carousel Section */
+#testimonial-carousel{
+  padding: 6% 6%;
+  background-color: #d3e0ea;
+  margin: 4% 2%;
+}
+.testimonial-text{
+  font-family: 'Roboto',sans-serif;
+  font-weight: bolder;
+  font-size: 3rem !important;
+  color: #1687a7;
+}
+.small-name{
+  font-family: 'Roboto',sans-serif;
+  font-weight: bolder;
+  font-size: 1.2rem !important;
+  color: #1687a7;
+  font-style: normal;
+}
+
+/* Footer */
+.footer{
+  margin-top: 5%
+  padding: 5% 5%;
+  background-color: #03506f;
+}
+.htwo{
+  font-size: 2rem !important;
+  color: #f9f3f3;
+  text-align: left;
+  width: 30%;
+  margin-left: 5%;
+}
+p{
+  font-size: 1rem;
+  color: #f9f3f3;
+  text-align: left;
+  width: 30%;
+  margin-left: 5%;
+}
+.icon{
+  padding: 2% 2%;
+  color: #03506f;
+}
+.icon:hover{
+  color: #d3e0ea;
+}
